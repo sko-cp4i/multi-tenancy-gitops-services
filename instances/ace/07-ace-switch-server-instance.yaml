@@ -1,0 +1,11 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: SwitchServer
+metadata:
+  name: ace-switch-server
+  namespace: tools
+spec:
+  license:
+    accept: true
+    license: L-APEH-CCHL5W
+    use: CloudPakForIntegrationNonProduction
+  version: 12.0-lts
